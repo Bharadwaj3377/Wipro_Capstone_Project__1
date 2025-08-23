@@ -1,0 +1,16 @@
+<suite name="ParameterSuite">
+    <test name="ValidTest">
+         <parameter name="username" value="admin"/>
+         <parameter name="password"  value="admin@123"/>
+         <classes>
+              <class name="Testng_package.LoginTest"/>
+         </classes>
+    </test>
+    <test name="InvalidTest">
+         <parameter name="username" value="ADMIN!@"/>
+         <parameter name="password"  value="654321"/>
+         <classes>
+              <class name="Testng_package.LoginTest"/>
+       </classes>
+     </test>
+</suite>
