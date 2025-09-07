@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="252.889" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-09-03T13:13:40.382492400Z">
+<testcase classname="Brand Shopping" name="User shops by brand" time="23.467">
+<system-out><![CDATA[
+Given the user is logged to the page........................................passed
+When the user applies brand filter..........................................passed
+Then products from the selected brand should be displayed...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Offers" name="User checks offers" time="22.748">
+<system-out><![CDATA[
+Given user is logged to page................................................passed
+When user navigates to offers...............................................passed
+Then offers should be displayed.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Favourites" name="User manages favourites" time="25.687">
+<system-out><![CDATA[
+Given user is logged in website.............................................passed
+When user adds and views favourites.........................................passed
+Then favourites should be displayed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Shipping Address" name="User enters shipping details" time="44.658">
+<system-out><![CDATA[
+Given user is on shipping address page......................................passed
+When user enters shipping details...........................................passed
+Then order summary should be displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logout" name="User logs out" time="19.157">
+<system-out><![CDATA[
+Given user is logged to site................................................passed
+When user logs out..........................................................passed
+Then user should be redirected to login page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality" name="User logs in successfully" time="15.828">
+<system-out><![CDATA[
+Given the user is on the login page.........................................passed
+When the user logs in with valid credentials................................passed
+Then the user should be logged in successfully..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Search" name="User searches for a product" time="23.112">
+<system-out><![CDATA[
+Given user is logged in.....................................................passed
+When user searches for "iphone".............................................passed
+Then relevant products should be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cart Management" name="User adds and removes product from cart" time="27.79">
+<system-out><![CDATA[
+Given user is logged to.....................................................passed
+When user adds and removes a product from the cart..........................passed
+Then cart should be updated.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout" name="User checks out a product" time="22.082">
+<system-out><![CDATA[
+Given user is logged in for product.........................................passed
+When user proceeds to checkout..............................................passed
+Then checkout page should be displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Filters" name="User applies filters" time="27.99">
+<system-out><![CDATA[
+Given user is logged to filters.............................................passed
+When user applies brand and price filters...................................passed
+Then filtered products should be displayed..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
