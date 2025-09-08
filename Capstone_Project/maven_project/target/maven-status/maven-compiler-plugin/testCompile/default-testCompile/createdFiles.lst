@@ -1,0 +1,12 @@
+stepdefinitions\page_demo.class
+stepdefinitions\login_test.class
+stepdefinitions\Checkout.class
+stepdefinitions\Filter.class
+stepdefinitions\Favourite.class
+stepdefinitions\AddtoCart.class
+stepdefinitions\search_steps.class
+stepdefinitions\Brandsshipping.class
+stepdefinitions\Logout.class
+stepdefinitions\Offers.class
+stepdefinitions\Shipping_address.class
+stepdefinitions\Test_runner.class
